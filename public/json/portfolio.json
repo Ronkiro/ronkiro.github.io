@@ -1,0 +1,58 @@
+{
+    "portfolio": [
+    {
+      "name":"Sensores - Radix",
+      "description":"PWA (Web/Mobile)",  
+      "imgurl":"images/portfolio/sensores.png",
+      "link": "https://github.com/Ronkiro/Sensores-Desafio-Radix-"
+    },
+    {
+      "name":"Star Wars API - B2W",
+      "description":"API (OpenSource)",
+      "imgurl":"images/portfolio/swapi.jpg",
+      "link": "https://github.com/Ronkiro/B2W-SWAPI"
+    },
+    {
+      "name":"Contatos API - META",
+      "description":"API (OpenSource)",
+      "imgurl":"images/portfolio/contatos.png",
+      "link": "https://github.com/Ronkiro/META_API_Challenge"
+    },
+    {
+      "name":"Weather App",
+      "description":"PWA (Web/Mobile)",
+      "imgurl":"images/portfolio/weather.png",
+      "link": "https://github.com/Ronkiro/WeatherApp"
+    },
+    {
+      "name":"Camera",
+      "description":"Arte CSS-only",
+      "imgurl":"images/portfolio/camera.png",
+      "link": "https://codepen.io/ronkiro"
+    },
+    {
+      "name":"Random Quote Generator",
+      "description":"Web app",
+      "imgurl":"images/portfolio/quotegen.png",
+      "link": "https://codepen.io/ronkiro"
+    },
+    {
+      "name":"Jokes",
+      "description":"Web app",
+      "imgurl":"images/portfolio/jokes.png",
+      "link": "https://codepen.io/ronkiro"
+    },
+    {
+      "name":"Tribute to Nikola Tesla",
+      "description":"Web app",
+      "imgurl":"images/portfolio/tesla.png",
+      "link": "https://codepen.io/ronkiro"
+    },
+    {
+      "name":"Sun'n'cloud",
+      "description":"Arte CSS-only",
+      "imgurl":"images/portfolio/sunncloud.png",
+      "link": "https://codepen.io/ronkiro"
+    }
+  ]
+}
