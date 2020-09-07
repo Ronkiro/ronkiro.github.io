@@ -1,57 +1,81 @@
 {
-    "portfolio": [
+  "portfolio": [
     {
-      "name":"Sensores - Radix",
-      "description":"PWA (Web/Mobile)",  
-      "imgurl":"images/portfolio/sensores.png",
+      "name": "Globo - Twitter IApprove",
+      "description": "Angular + NodeJS/Express",
+      "imgurl": "images/portfolio/twitter-iapprove.jpg",
+      "link": "https://github.com/Ronkiro/twitter-iapprove/"
+    },
+    {
+      "name": "HURB - Challenge-bravo",
+      "description": "Node.js/Express API",
+      "imgurl": "images/portfolio/challenge-bravo.jpg",
+      "link": "https://github.com/Ronkiro/challenge-bravo/"
+    },
+    {
+      "name": "Pricing Component Challenge",
+      "description": "Angular",
+      "imgurl": "images/portfolio/Pricing.png",
+      "link": "https://ronkiro.github.io/Pricing-Component-Challenge/"
+    },
+    {
+      "name": "HTTP Cats of the Day",
+      "description": "Angular",
+      "imgurl": "images/portfolio/http-cats-of-the-day.png",
+      "link": "https://ronkiro.github.io/http-cats-of-the-day/"
+    },
+    {
+      "name": "Sensores - Radix",
+      "description": "React + .NET",
+      "imgurl": "images/portfolio/sensores.png",
       "link": "https://github.com/Ronkiro/Sensores-Desafio-Radix-"
     },
     {
-      "name":"Star Wars API - B2W",
-      "description":"API (OpenSource)",
-      "imgurl":"images/portfolio/swapi.jpg",
+      "name": "Star Wars API - B2W",
+      "description": "Python/Flask API",
+      "imgurl": "images/portfolio/swapi.jpg",
       "link": "https://github.com/Ronkiro/B2W-SWAPI"
     },
     {
-      "name":"Contatos API - META",
-      "description":"API (OpenSource)",
-      "imgurl":"images/portfolio/contatos.png",
+      "name": "Contatos API - META",
+      "description": ".NET",
+      "imgurl": "images/portfolio/contatos.png",
       "link": "https://github.com/Ronkiro/META_API_Challenge"
     },
     {
-      "name":"Weather App",
-      "description":"PWA (Web/Mobile)",
-      "imgurl":"images/portfolio/weather.png",
+      "name": "Weather App",
+      "description": "jQuery",
+      "imgurl": "images/portfolio/weather.png",
       "link": "https://github.com/Ronkiro/WeatherApp"
     },
     {
-      "name":"Camera",
-      "description":"Arte CSS-only",
-      "imgurl":"images/portfolio/camera.png",
+      "name": "Camera",
+      "description": "Arte CSS-only",
+      "imgurl": "images/portfolio/camera.png",
       "link": "https://codepen.io/ronkiro"
     },
     {
-      "name":"Random Quote Generator",
-      "description":"Web app",
-      "imgurl":"images/portfolio/quotegen.png",
+      "name": "Random Quote Generator",
+      "description": "jQuery",
+      "imgurl": "images/portfolio/quotegen.png",
       "link": "https://codepen.io/ronkiro"
     },
     {
-      "name":"Jokes",
-      "description":"Web app",
-      "imgurl":"images/portfolio/jokes.png",
+      "name": "Jokes",
+      "description": "React",
+      "imgurl": "images/portfolio/jokes.png",
       "link": "https://codepen.io/ronkiro"
     },
     {
-      "name":"Tribute to Nikola Tesla",
-      "description":"Web app",
-      "imgurl":"images/portfolio/tesla.png",
+      "name": "Tribute to Nikola Tesla",
+      "description": "jQuery",
+      "imgurl": "images/portfolio/tesla.png",
       "link": "https://codepen.io/ronkiro"
     },
     {
-      "name":"Sun'n'cloud",
-      "description":"Arte CSS-only",
-      "imgurl":"images/portfolio/sunncloud.png",
+      "name": "Sun'n'cloud",
+      "description": "Arte CSS-only",
+      "imgurl": "images/portfolio/sunncloud.png",
       "link": "https://codepen.io/ronkiro"
     }
   ]
