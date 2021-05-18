@@ -1,10 +1,10 @@
 let resumeData = {
     "imagebaseurl":"https://ronkiro.github.io",
     "name": "Alexander Santos",
-    "role": "Desenvolvedor back-end",
+    "role": "Engenheiro de Software  💻",
     "email": "dev_alex@outlook.com",
     "skypeid": "live:alex19980609",
-    "roleDescription": "Fissurado em computação, matemática, inovação e nas horas vagas estudo as pessoas.",
+    "roleDescription": "Desenvolve aplicações para resolver problemas computacionais. Cria bugs nas horas vagas. 😅",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -27,7 +27,7 @@ let resumeData = {
           "className": "fa fa-envelope"
         }
       ],
-    "aboutme":"Utilizo computadores desde meus 5 anos de idade (2003), de forma mais técnica específicamente aos 7 anos (2005) com Lua, Flash, HTML e CSS.\n\nDurante o curso de Automação Industrial lidei com tecnologias como Ladder (CLPs), C e programação em diagrama de blocos. Além de tecnologias relacionadas a eletrônica, como RFIDs, transmissores, pressostatos, termostatos, entre outras tecnologias aplicáveis à instrumentação industrial. Liderei assim o corpo de desenvolvimento do projeto final, com um SMAR-CD600.\n\nNo ensino superior busquei me aperfeiçoar ainda mais, aprendendo sobre Java (JSE e JEE). Comecei então à auxiliar comunidades como freecodecamp.com e projetos open-source, assim fui aprendendo sobre Javascript, jQuery e React, me reforçando mais em Web. Isto me levou à conhecer um pouco mais sobre PHP junto de MySQL, e aprendi mais sobre métodos como KISS, DRY, YAGNI e SOLID, junto com metodologias como REST e SOAP. Assim, fui entendendo melhor os objetivos de frameworks, aprendendo assim sobre CakePHP e Laravel. Buscando alternativas, conheci .NET e o C#.\n\nAprendendo mais sobre o processo de Engenharia de Software, aprendi sobre Scrum e Kanban.\n\nAprendi Python e me apaixonei pela simplicidade, capacidade de abstração e poder que a linguagem fornecia. Diante de toda a simplicidade, achei linda toda a camada interna do Python (Como Magic Functions e sua interface com C++), e assim fui cada vez mais me especializando com a linguagem. lidando com famosas bibliotecas e frameworks como Flask e Django. Também melhorei meus códigos com a aplicação de DDD, TDD e Design Patterns, junto de técnicas de UI/UX e aplicações como MaterialUI e Materialize.\n\nHoje busco aprender sobre DevOps e serviços Cloud. Recentemente tenho estudado sobre AWS, Docker e MongoDB/NoSQL.\n\nTenho para o futuro planos de me especializar na arte de desenvolver softwares e aprender sobre Inteligência Artificial, por ser um ramo que me traz grande interesse.",
+    "aboutme":"Desenvolvedor por diversão desde os 7 anos de idade, acumulei experiência em variados tipos de tecnologia e linguagens. Profissionalmente desenvolvo desde 2017, atuando diretamente na área de softwares desde 2018. Diante das minhas experiências profissionais, me destaco pelo vasto conhecimento de Design e Arquitetura de Sistemas. Arquitetei e projetei diversos padrões, buscando sempre inovar em arquiteturas mais flexíveis, para aplicações de média e larga escala. Também já ministrei algumas palestras internas aos ambientes em que atuei, compartilhando conhecimentos e experiências, onde tornei-me referência técnica em Git & Angular. Na Globo, crio experiências de larga-escala para o grande público principalmente utilizando NodeJS, React, Angular & Python. Também lido com tecnologias como Lua, Ginga & NCL para a entrega de aplicações para a TV, porém em menor escala. Para a entrega destas experiências, utilizo majoritariamente AWS e Tsuru (como PaaS). Também utilizo Redux, redux-saga, NgRx e derivados, mas não vamos prolongar tanto a lista de tecnologias, vamos retornar a ênfase á minha jornada. 😅 Já atuei e arquitetei aplicações de pequena, média e larga escala utilizando padrões como microsserviços, serverless, CQRS, DDD, arquitetura onion e TDD. Desenvolvi diversos projetos essenciais para as empresas as quais eu atuei. Também já criei aplicações de pequena escala em PHP, onde usei CakePHP e Laravel e aplicações C# de média e grande escala em .NET Core e WPF.",
     "address":"Rio de Janeiro/RJ - Brasil",
     "website":"https://ronkiro.github.io",
     "awards": [
@@ -59,10 +59,28 @@ let resumeData = {
     ],
     "work":[
       {
+        "CompanyName":"Globo",
+        "specialization":"Engenheiro de Software",
+        "MonthOfStart":"Setembro",
+        "YearOfStart":"2020",
+        "Achievements":"Mantém um parque de aplicações Node.JS, Python, React & Angular em um setor de inovação tecnológica e pesquisa da Globo voltado para Branded Content & Merchandising. É um dos principais analistas de grandes projetos da Globo relacionados à T-Commerce, DTVi e recursos de vídeo Shoppable, desenvolvendo aplicações relacionadas à TV interativa (Ginga + NCL) e recursos de vídeo/anúncios criativos."
+      },
+      {
+        "CompanyName":"Oi",
+        "specialization":"Analista de Desenvolvimento de Softwares",
+        "MonthOfStart":"Janeiro",
+        "YearOfStart":"2020",
+        "MonthOfLeaving":"Setembro",
+        "YearOfLeaving":"2020",
+        "Achievements":"Desenvolveu aplicações .NET e Angular diante da metodologia Scrum, utilizando majoritariamente NHibernate, Entity Framework e RxJS. Atuou em projetos da Oi, Utilizando DDD e design patterns."
+      },
+      {
         "CompanyName":"Médecins Sans Frontiéres - Brazil",
         "specialization":"Estagiário de Desenvolvimento de Sistemas",
         "MonthOfStart":"Setembro",
         "YearOfStart":"2018",
+        "MonthOfLeaving":"Janeiro",
+        "YearOfLeaving":"2020",
         "Achievements":"Reduziu drásticamente a quantia de incidentes de software ocorridos, otimizou em cerca de 81% o processamento de um software de extração de dados, realizou melhorias, documentou e automatizou processos de desenvolvimento de softwares, desenvolveu um sistema de monitoramento automático de falhas."
       },
       {
@@ -78,11 +96,11 @@ let resumeData = {
     "skillsDescription":"Um breve resumo do que sei sobre desenvolver",
     "skills":[
       {
-        "level": "exp",
+        "level": "bgn",
         "skillname":"HTML5"
       },
       {
-        "level": "exp",
+        "level": "bgn",
         "skillname":"CSS"
       },
       {
@@ -91,31 +109,147 @@ let resumeData = {
       },
       {
         "level": "exp",
+        "skillname":"NodeJS"
+      },
+      {
+        "level": "exp",
+        "skillname":"Angular"
+      },
+      {
+        "level": "exp",
         "skillname":"Python"
       },
       {
-        "level": "exp",
+        "level": "bgn",
         "skillname":"Bootstrap"
       },
       {
-        "level": "exp",
+        "level": "bgn",
         "skillname":"MySQL"
       },
       {
-        "level": "exp",
+        "level": "bgn",
         "skillname":"Flask"
       },
       {
-        "level": "exp",
+        "level": "bgn",
         "skillname":"jQuery"
       },
       {
         "level": "bgn",
+        "skillname":"Microsserviços"
+      },
+      {
+        "level": "bgn",
+        "skillname":"CQRS"
+      },
+      {
+        "level": "bgn",
+        "skillname":"IIS"
+      },
+      {
+        "level": "bgn",
+        "skillname":"nginx"
+      },
+      {
+        "level": "bgn",
+        "skillname":"SEO"
+      },
+      {
+        "level": "bgn",
+        "skillname":"gulp"
+      },
+      {
+        "level": "bgn",
+        "skillname":"parcel"
+      },
+      {
+        "level": "bgn",
+        "skillname":"webpack"
+      },
+      {
+        "level": "bgn",
+        "skillname":"Sass/Scss"
+      },
+      {
+        "level": "bgn",
+        "skillname":"Typescript"
+      },
+      {
+        "level": "bgn",
+        "skillname":"react-native"
+      },
+      {
+        "level": "bgn",
+        "skillname":"BEM (CSS)"
+      },
+      {
+        "level": "bgn",
+        "skillname":"Material"
+      },
+      {
+        "level": "bgn",
+        "skillname":"RxJS"
+      },
+      {
+        "level": "bgn",
+        "skillname":"jwt"
+      },
+      {
+        "level": "bgn",
+        "skillname":"yaml"
+      },
+      {
+        "level": "bgn",
+        "skillname":"SOA"
+      },
+      {
+        "level": "bgn",
+        "skillname":"Redux"
+      },
+      {
+        "level": "bgn",
+        "skillname":"ElasticSearch"
+      },
+      {
+        "level": "bgn",
+        "skillname":"MongoDB"
+      },
+      {
+        "level": "bgn",
+        "skillname":"Redis"
+      },
+      {
+        "level": "bgn",
+        "skillname":"memcached"
+      },
+      {
+        "level": "bgn",
+        "skillname":"DynamoDB"
+      },
+      {
+        "level": "bgn",
+        "skillname":"AWS Cloud"
+      },
+      {
+        "level": "bgn",
+        "skillname":"AWS Lambda/Serverless"
+      },
+      {
+        "level": "exp",
         "skillname":".NET/C#"
       },
       {
         "level": "bgn",
         "skillname":"PHP"
+      },
+      {
+        "level": "bgn",
+        "skillname":"Git"
+      },
+      {
+        "level": "bgn",
+        "skillname":"Redux"
       },
       {
         "level": "bgn",
@@ -143,7 +277,75 @@ let resumeData = {
       },
       {
         "level": "bgn",
+        "skillname":"Terraform"
+      },
+      {
+        "level": "bgn",
+        "skillname":"Lua"
+      },
+      {
+        "level": "bgn",
+        "skillname":"Ginga"
+      },
+      {
+        "level": "bgn",
+        "skillname":"OpenAPI"
+      },
+      {
+        "level": "bgn",
+        "skillname":"Swagger"
+      },
+      {
+        "level": "bgn",
+        "skillname":"OpenID Connect"
+      },
+      {
+        "level": "bgn",
+        "skillname":"OAuth2"
+      },
+      {
+        "level": "bgn",
+        "skillname":"Jest"
+      },
+      {
+        "level": "bgn",
+        "skillname":"Cypress"
+      },
+      {
+        "level": "bgn",
+        "skillname":"Mocha"
+      },
+      {
+        "level": "bgn",
+        "skillname":"Husky"
+      },
+      {
+        "level": "bgn",
+        "skillname":"HATEOAS"
+      },
+      {
+        "level": "bgn",
+        "skillname":"SOLID/YAGNI/KISS/DRY development"
+      },
+      {
+        "level": "bgn",
+        "skillname":"OWASP"
+      },
+      {
+        "level": "bgn",
+        "skillname":"NCL"
+      },
+      {
+        "level": "bgn",
+        "skillname":"RabbitMQ"
+      },
+      {
+        "level": "bgn",
         "skillname":"Docker"
+      },
+      {
+        "level": "bgn",
+        "skillname":"Heroku"
       },
       {
         "level": "bgn",
@@ -152,6 +354,14 @@ let resumeData = {
       {
         "level": "bgn",
         "skillname":"Java"
+      },
+      {
+        "level": "bgn",
+        "skillname":"Tsuru"
+      },
+      {
+        "level": "bgn",
+        "skillname":"etc"
       },
     ],
     "portfolio":[

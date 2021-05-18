@@ -14,7 +14,7 @@ export default class About extends Component {
 
                <div className="nine columns main-col">
 
-                  <h2>Sobre mim</h2>
+                  <h2>Sobre mim 👤</h2>
                   <p>
                      {
                         resumeData.aboutme
@@ -25,7 +25,7 @@ export default class About extends Component {
 
                      <div className="columns contact-details">
 
-                        <h2>Conquistas</h2>
+                        <h2>Conquistas 🏆</h2>
                         <p className="address">
                            {
                               resumeData.awards.map(item => (

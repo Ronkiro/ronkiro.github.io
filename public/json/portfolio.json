@@ -1,10 +1,76 @@
 {
   "portfolio": [
     {
+      "name": "Globo - Globomap",
+      "description": "React + NodeJS/Express",
+      "imgurl": "images/portfolio/globomap.png",
+      "link": "https://github.com/Ronkiro/"
+    },
+    {
+      "name": "Globo - Logger - No Limite",
+      "description": "React + NodeJS/Express",
+      "imgurl": "images/portfolio/lomo.png",
+      "link": "https://lomo.globo.com/"
+    },
+    {
+      "name": "Globo - Shoppable - Identificador de Looks C&A e BBB",
+      "description": "Angular + NodeJS/Express",
+      "imgurl": "images/portfolio/shoppable.jpg",
+      "link": "https://gshow.especiaisgshow.globo/realities/bbb21/shoppable-cea/#/"
+    },
+    {
+      "name": "Globobox",
+      "description": "Python + VueJS",
+      "imgurl": "images/portfolio/globobox.png",
+      "link": "https://github.com/Ronkiro/"
+    },
+    {
+      "name": "Globo - DTVi BBB21 Sky",
+      "description": "Lua, Ginga & NCL + NodeJS",
+      "imgurl": "images/portfolio/dtvi-bbb.png",
+      "link": "https://github.com/Ronkiro/"
+    },
+    {
+      "name": "Globo - TCommerce Dashboard",
+      "description": "NodeJS/Express + React/Redux",
+      "imgurl": "images/portfolio/tcommercedashboard.png",
+      "link": "https://github.com/Ronkiro/"
+    },
+    {
+      "name": "Globo - Natal Antônio Banderas",
+      "description": "React",
+      "imgurl": "images/portfolio/puig.png",
+      "link": "https://natalantoniobanderasperfumes.globo.com/"
+    },
+    {
+      "name": "Globo - TCommerce \"É de casa\"",
+      "description": "Lua, Ginga & NCL + NodeJS",
+      "imgurl": "images/portfolio/tcommerce.png",
+      "link": "https://github.com/Ronkiro/"
+    },
+    {
+      "name": "Globo - TCommerce \"Fina Estampa\"",
+      "description": "Lua, Ginga & NCL + NodeJS",
+      "imgurl": "images/portfolio/tcommercefinaestampa.png",
+      "link": "https://github.com/Ronkiro/"
+    },
+    {
       "name": "Globo - Twitter IApprove",
       "description": "Angular + NodeJS/Express",
       "imgurl": "images/portfolio/twitter-iapprove.jpg",
       "link": "https://github.com/Ronkiro/twitter-iapprove/"
+    },
+    {
+      "name": "Oi - Módulo Interno Jurídico",
+      "description": ".NET WPF",
+      "imgurl": "images/portfolio/unavailable.png",
+      "link": "https://github.com/Ronkiro/"
+    },
+    {
+      "name": "Oi - Jurídico (SISJUR)",
+      "description": "Angular + .NET Core",
+      "imgurl": "images/portfolio/sisjur.png",
+      "link": "http://juridico.oi.net.br/"
     },
     {
       "name": "HURB - Challenge-bravo",
@@ -29,6 +95,12 @@
       "description": "React + .NET",
       "imgurl": "images/portfolio/sensores.png",
       "link": "https://github.com/Ronkiro/Sensores-Desafio-Radix-"
+    },
+    {
+      "name": "MSF - Automat WEB",
+      "description": "Python/Django + React",
+      "imgurl": "images/portfolio/unavailable.png",
+      "link": "https://codepen.io/ronkiro"
     },
     {
       "name": "Star Wars API - B2W",
@@ -70,6 +142,30 @@
       "name": "Tribute to Nikola Tesla",
       "description": "jQuery",
       "imgurl": "images/portfolio/tesla.png",
+      "link": "https://codepen.io/ronkiro"
+    },
+    {
+      "name": "MSF - Automat++",
+      "description": "Python",
+      "imgurl": "images/portfolio/unavailable.png",
+      "link": "https://codepen.io/ronkiro"
+    },
+    {
+      "name": "MSF - Processador de Retornos Manuais",
+      "description": "Python",
+      "imgurl": "images/portfolio/unavailable.png",
+      "link": "https://codepen.io/ronkiro"
+    },
+    {
+      "name": "MSF - Processador de Retornos Automáticos",
+      "description": "Python",
+      "imgurl": "images/portfolio/unavailable.png",
+      "link": "https://codepen.io/ronkiro"
+    },
+    {
+      "name": "MSF - Gerador de envios automáticos",
+      "description": "Python",
+      "imgurl": "images/portfolio/unavailable.png",
       "link": "https://codepen.io/ronkiro"
     },
     {
