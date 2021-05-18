@@ -181,6 +181,10 @@ let resumeData = {
       },
       {
         "level": "bgn",
+        "skillname":"react-native"
+      },
+      {
+        "level": "bgn",
         "skillname":"BEM (CSS)"
       },
       {
