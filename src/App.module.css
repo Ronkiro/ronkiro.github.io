@@ -1,0 +1,73 @@
+.carousel-btn {
+  margin-right: 1vw;
+  color: #95A3A3;
+}
+
+.carousel-btn-reverse {
+  margin-right: 0;
+  margin-left: 1vw;
+}
+
+.BrainhubCarouselItem > div > img {
+  width: 40rem;
+  object-fit: contain;
+}
+
+.BrainhubCarousel__customArrows:hover > .carousel-btn {
+  color: #111;
+  cursor: pointer;
+}
+
+.BrainhubCarousel {
+  cursor: grab;
+
+  -webkit-user-select: none;    /* Safari */
+  -webkit-touch-callout: none;  /* iOS Safari */
+  -khtml-user-select: none;     /* Konqueror HTML */
+  -ms-user-select: none;        /* Internet Explorer/Edge */
+  -moz-user-select: none;       /* Old versions of Firefox */
+   user-select: none;           /* Non-prefixed version*/
+}
+
+.lead {
+  color: #ececec;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2B2B2B; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.info-msg {
+  opacity: 0%;
+  position: absolute;
+  background-color: white;
+  width: 260px;
+  height: 100px;
+  transform: translate(100%, -75%);
+  background-color: white;
+  transition: opacity 500ms;
+  border-radius: 15px;
+  transform: translateY(-150%);
+  padding: 10px;
+}
+
+.BrainhubCarouselItem:hover > div > .info-msg {
+  opacity: 100%;
+  border: 1px #222 solid;
+}
