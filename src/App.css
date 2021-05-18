@@ -10,7 +10,6 @@
 
 .BrainhubCarouselItem > div > img {
   width: 40rem;
-  height: 40remrem;
   object-fit: contain;
 }
 
