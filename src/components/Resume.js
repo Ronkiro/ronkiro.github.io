@@ -1,105 +1,131 @@
-import React, { Component } from 'react';
-export default  class Resume extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
-    return (
-      <section id="resume">
+import {
+  createTheme,
+  Events,
+  TextEvent,
+  themes,
+  Timeline,
+  Button
+} from "@merc/react-timeline";
+import React, { useEffect, useState } from "react";
+const customTheme = createTheme(themes.default, {
+  date: {
+    backgroundColor: "#2B2B2B",
+  },
+  marker: {
+    borderColor: "#2B2B2B",
+  },
+  timelineTrack: {
+    backgroundColor: "#2B2B2B",
+  },
+});
 
-         <div className="row education">
+const Resume = (props) => {
+  const [showMoreIndex, setShowMoreIndex] = useState(-1);
+  const [expand, setExpand] = useState(false);
 
-            <div className="three columns header-col">
-               <h1><span>Educação</span></h1>
-            </div>
+  const resumeData = props.resumeData;
 
-            <div className="nine columns main-col">
-              {
-                resumeData.education && resumeData.education.map((item)=>{
-                  return(
-                    <div className="row item">
-                       <div className="twelve columns">
-                          <h3>{item.UniversityName}</h3>
-                          <p className="info">
-                          {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfStart}, {item.YearOfStart}</em> - <em className="date">{item.MonthOfPassing || "Atualmente"}, {item.YearOfPassing}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
-                       </div>
+  const getHiddenText = (text) => {
+    const _textArr = text.slice(0, 100).split(" ");
+    _textArr.pop();
+    return _textArr.join(" ") + "...";
+  };
+
+  const handleClick = (index) => {
+    setShowMoreIndex(index);
+  };
+
+  const handleExpand = () => { setExpand(true); }
+
+  return (
+    <section id="resume">
+      <div className="row work">
+        <div className="three columns header-col">
+          <h1>
+            <span>Jornada</span>
+          </h1>
+        </div>
+
+        <div className={expand? "nine columns main-col collapsible-open": "nine columns main-col collapsible"}>
+          <Timeline theme={customTheme}>
+            <Events>
+              {resumeData.events.map((item, index) => (
+                <TextEvent data-idx={index} date={item.date} text="">
+                  <div className="two-two">
+                    <div className="two-two-item">
+                      <img src={item.logo} />
                     </div>
-                  )
-                })
-              }
-            </div>
-         </div>
-        <div className="row work">
-            <div className="three columns header-col">
-               <h1><span>Experiência</span></h1>
-            </div>
-
-            <div className="nine columns main-col">
-              {
-                resumeData.work && resumeData.work.map((item) => {
-                  return(
-                    <div className="row item">
-                       <div className="twelve columns">
-                          <h3>{item.CompanyName}</h3>
-                          <p className="info">
-                          {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfStart} {item.YearOfStart}</em> - <em className="date">{item.MonthOfLeaving || "Atualmente"} {item.YearOfLeaving}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
-                       </div>
-
+                    <div className="two-two-item">
+                      <div className="timeline-text-sub">{item.title}</div>
+                      <div className="timeline-text-title">
+                        {item.organization}
+                      </div>
+                      <div className="timeline-text-desc">
+                        {item.description}
+                      </div>
+                      <div
+                        style={{ marginTop: "1rem" }}
+                        className="timeline-text-desc"
+                      >
+                        {index === showMoreIndex
+                          ? item.longdesc
+                          : getHiddenText(item.longdesc)}
+                        {!(index === showMoreIndex) && (
+                          <span
+                            style={{ cursor: "pointer", color: "#999" }}
+                            href="#"
+                            onClick={() => handleClick(index)}
+                          >
+                            {" "}
+                            Ver mais
+                          </span>
+                        )}
+                      </div>
                     </div>
+                  </div>
+                </TextEvent>
+              ))}
+            </Events>
+          </Timeline>
+        </div>
+        {!expand && <button className="nine columns expand" onClick={handleExpand}>Expandir</button>}
+      </div>
 
-                  )
-                })
-              }
-            </div> 
-         </div>
+      <div className="row skill">
+        <div className="three columns header-col">
+          <h1>
+            <span>Skills</span>
+          </h1>
+        </div>
 
-
-         <div className="row skill">
-
-            <div className="three columns header-col">
-               <h1><span>Skills</span></h1>
-            </div>
-
-            <div className="nine columns main-col">
-
-               <p>
-               {resumeData.skillsDescription}
-               </p>
+        <div className="nine columns main-col">
+          <p>{resumeData.skillsDescription}</p>
           <div>
-   				   <ul className="skills">
-                <li>
-                  <b>Especialidades:</b> {
-                  resumeData.skills && resumeData.skills.map((item) => {
-                      return(
-                            <em>{item.level === "exp" && item.skillname + ";"} </em>
-                      )
-                    })
-                  }
-                </li>
-                <li>
-                <b>Extras:</b> {
-                  resumeData.skills && resumeData.skills.map((item) => {
-                      return(
-                            <em>{item.level === "bgn" && item.skillname + ";"} </em>
-                      )
-                    })
-                  }
-                </li>
-   					</ul>
+            <ul className="skills">
+              <li>
+                <b>Especialidades:</b>{" "}
+                {resumeData.skills &&
+                  resumeData.skills.map((item) => {
+                    return (
+                      <em>{item.level === "exp" && item.skillname + ";"} </em>
+                    );
+                  })}
+              </li>
+              <li>
+                <b>Extras:</b>{" "}
+                {resumeData.skills &&
+                  resumeData.skills.map((item) => {
+                    return (
+                      <em>{item.level === "bgn" && item.skillname + ";"} </em>
+                    );
+                  })}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
-   				</div>
-
-   			</div>
-
-         </div>
-
-      </section>
-    );
-  }
-}
+export default Resume;
