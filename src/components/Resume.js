@@ -97,7 +97,14 @@ const Resume = (props) => {
           </Timeline>
         </div>
         {!expand && (
-          <button className="nine columns expand" onClick={handleExpand}>
+          <button className="nine columns expand" 
+            style={{ 
+              backgroundColor: "transparent",
+              background: "transparent",
+              color: "rgb(43, 43, 43)",
+              border: "solid 1px #0002"
+            }}
+            onClick={handleExpand}>
             Expandir
           </button>
         )}
