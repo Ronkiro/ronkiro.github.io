@@ -4,7 +4,7 @@ import {
   TextEvent,
   themes,
   Timeline,
-  Button
+  Button,
 } from "@merc/react-timeline";
 import React, { useEffect, useState } from "react";
 const customTheme = createTheme(themes.default, {
@@ -35,7 +35,9 @@ const Resume = (props) => {
     setShowMoreIndex(index);
   };
 
-  const handleExpand = () => { setExpand(true); }
+  const handleExpand = () => {
+    setExpand(true);
+  };
 
   return (
     <section id="resume">
@@ -46,7 +48,13 @@ const Resume = (props) => {
           </h1>
         </div>
 
-        <div className={expand? "nine columns main-col collapsible-open": "nine columns main-col collapsible"}>
+        <div
+          className={
+            expand
+              ? "nine columns main-col collapsible-open"
+              : "nine columns main-col collapsible"
+          }
+        >
           <Timeline theme={customTheme}>
             <Events>
               {resumeData.events.map((item, index) => (
@@ -88,39 +96,44 @@ const Resume = (props) => {
             </Events>
           </Timeline>
         </div>
-        {!expand && <button className="nine columns expand" onClick={handleExpand}>Expandir</button>}
+        {!expand && (
+          <button className="nine columns expand" onClick={handleExpand}>
+            Expandir
+          </button>
+        )}
       </div>
+      <div className="skill-sect">
+        <div className="row skill">
+          <div className="three columns header-col">
+            <h1>
+              <span style={{ color: "#fff" }}>Skills</span>
+            </h1>
+          </div>
 
-      <div className="row skill">
-        <div className="three columns header-col">
-          <h1>
-            <span>Skills</span>
-          </h1>
-        </div>
-
-        <div className="nine columns main-col">
-          <p>{resumeData.skillsDescription}</p>
-          <div>
-            <ul className="skills">
-              <li>
-                <b>Especialidades:</b>{" "}
-                {resumeData.skills &&
-                  resumeData.skills.map((item) => {
-                    return (
-                      <em>{item.level === "exp" && item.skillname + ";"} </em>
-                    );
-                  })}
-              </li>
-              <li>
-                <b>Extras:</b>{" "}
-                {resumeData.skills &&
-                  resumeData.skills.map((item) => {
-                    return (
-                      <em>{item.level === "bgn" && item.skillname + ";"} </em>
-                    );
-                  })}
-              </li>
-            </ul>
+          <div className="nine columns main-col">
+            <p>{resumeData.skillsDescription}</p>
+            <div>
+              <ul className="skills">
+                <li>
+                  <b>Especialidades:</b>{" "}
+                  {resumeData.skills &&
+                    resumeData.skills.map((item) => {
+                      return (
+                        <em>{item.level === "exp" && item.skillname + ";"} </em>
+                      );
+                    })}
+                </li>
+                <li>
+                  <b>Extras:</b>{" "}
+                  {resumeData.skills &&
+                    resumeData.skills.map((item) => {
+                      return (
+                        <em>{item.level === "bgn" && item.skillname + ";"} </em>
+                      );
+                    })}
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
