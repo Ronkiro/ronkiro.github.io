@@ -150,7 +150,7 @@
 }
 
 .collapsible-open {
-  overflow-y: visible
+  overflow-y: visible;
   max-height: unset;
 }
 
