@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 export default class Footer extends Component {
   render() {
     let resumeData = this.props.resumeData;
+    let showReturn = (this.props.showReturn == undefined)? true : this.props.showReturn;
     return (
       <footer>
       <div className="row">
@@ -21,7 +22,7 @@ export default class Footer extends Component {
           </ul>
           
         </div>
-        <div id="go-top"><a className="smoothscroll" title="Voltar ao topo" href="#home"><i className="icon-up-open" /></a></div>
+        { showReturn && <div id="go-top"><a className="smoothscroll" title="Voltar ao topo" href="#home"><i className="icon-up-open" /></a></div> }
       </div>
     </footer>
     );

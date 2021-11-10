@@ -1,178 +1,214 @@
 {
   "portfolio": [
     {
+      "name": "Globo - GloboML",
+      "description": "React + NodeJS/Express",
+      "imgurl": "images/portfolio/globo-ml.png",
+      "link": "https://github.com/Ronkiro/",
+      "tags": "node,react,redux,rekognition,lambda,serverless,sns,aws,ec2,rds,mysql,gateway,dynamo,elasticsearch,s3"
+    },
+    {
       "name": "Globo - Globomap",
       "description": "React + NodeJS/Express",
       "imgurl": "images/portfolio/globomap.png",
-      "link": "https://github.com/Ronkiro/"
+      "link": "https://github.com/Ronkiro/",
+      "tags": "tsuru,nodejs,react,redux,socket,rnative,ec2,rds,mysql"
     },
     {
       "name": "Globo - Logger - No Limite",
       "description": "React + NodeJS/Express",
       "imgurl": "images/portfolio/lomo.png",
-      "link": "https://lomo.globo.com/"
+      "link": "https://lomo.globo.com/",
+      "tags": "tsuru,nodejs,react,redux,rds,mysql"
     },
     {
       "name": "Globo - Shoppable - Identificador de Looks C&A e BBB",
       "description": "Angular + NodeJS/Express",
       "imgurl": "images/portfolio/shoppable.jpg",
-      "link": "https://gshow.especiaisgshow.globo/realities/bbb21/shoppable-cea/#/"
+      "link": "https://gshow.especiaisgshow.globo/realities/bbb21/shoppable-cea/#/",
+      "tags": "tsuru,nodejs,react,redux,rds,mysql,s3,clappr,aws"
     },
     {
       "name": "Globobox",
       "description": "Python + VueJS",
       "imgurl": "images/portfolio/globobox.png",
-      "link": "https://github.com/Ronkiro/"
+      "link": "https://github.com/Ronkiro/",
+      "tags": "serverless,lambda,vuejs,python,dynamo,react,redux,aws"
     },
     {
       "name": "Globo - DTVi BBB21 Sky",
       "description": "Lua, Ginga & NCL + NodeJS",
       "imgurl": "images/portfolio/dtvi-bbb.png",
-      "link": "https://github.com/Ronkiro/"
+      "link": "https://github.com/Ronkiro/",
+      "tags": "ncl,lua,nodejs"
     },
     {
       "name": "Globo - TCommerce Dashboard",
       "description": "NodeJS/Express + React/Redux",
       "imgurl": "images/portfolio/tcommercedashboard.png",
-      "link": "https://github.com/Ronkiro/"
+      "link": "https://github.com/Ronkiro/",
+      "tags": "nodejs,tsuru,react,tailwind,chartjs,redux,rds,mysql,sqs,ses,ec2,aws"
     },
     {
       "name": "Globo - Natal Antônio Banderas",
       "description": "React",
       "imgurl": "images/portfolio/puig.png",
-      "link": "https://natalantoniobanderasperfumes.globo.com/"
+      "link": "https://natalantoniobanderasperfumes.globo.com/",
+      "tags": "nginx,analytics"
     },
     {
       "name": "Globo - TCommerce \"É de casa\"",
       "description": "Lua, Ginga & NCL + NodeJS",
       "imgurl": "images/portfolio/tcommerce.png",
-      "link": "https://github.com/Ronkiro/"
+      "link": "https://github.com/Ronkiro/",
+      "tags": "ncl,lua,nodejs"
     },
     {
       "name": "Globo - TCommerce \"Fina Estampa\"",
       "description": "Lua, Ginga & NCL + NodeJS",
       "imgurl": "images/portfolio/tcommercefinaestampa.png",
-      "link": "https://github.com/Ronkiro/"
+      "link": "https://github.com/Ronkiro/",
+      "tags": "ncl,lua,nodejs"
     },
     {
       "name": "Globo - Twitter IApprove",
       "description": "Angular + NodeJS/Express",
       "imgurl": "images/portfolio/twitter-iapprove.jpg",
-      "link": "https://github.com/Ronkiro/twitter-iapprove/"
+      "link": "https://github.com/Ronkiro/twitter-iapprove/",
+      "tags": "nodejs,angular,docker,docker-compose"
     },
     {
       "name": "Oi - Módulo Interno Jurídico",
       "description": ".NET WPF",
       "imgurl": "images/portfolio/unavailable.png",
-      "link": "https://github.com/Ronkiro/"
+      "link": "https://github.com/Ronkiro/",
+      "tags": "dotnet,angular,wpf,oracle"
     },
     {
       "name": "Oi - Jurídico (SISJUR)",
       "description": "Angular + .NET Core",
       "imgurl": "images/portfolio/sisjur.png",
-      "link": "http://juridico.oi.net.br/"
+      "link": "http://juridico.oi.net.br/",
+      "tags": "dotnet,angular,iis,powershell,bash,oracle"
     },
     {
       "name": "HURB - Challenge-bravo",
       "description": "Node.js/Express API",
       "imgurl": "images/portfolio/challenge-bravo.jpg",
-      "link": "https://github.com/Ronkiro/challenge-bravo/"
+      "link": "https://github.com/Ronkiro/challenge-bravo/",
+      "tags": "nodejs,docker,docker-compose,mini"
     },
     {
       "name": "Pricing Component Challenge",
       "description": "Angular",
       "imgurl": "images/portfolio/Pricing.png",
-      "link": "https://ronkiro.github.io/Pricing-Component-Challenge/"
+      "link": "https://ronkiro.github.io/Pricing-Component-Challenge/",
+      "tags": "angular,mini"
     },
     {
       "name": "HTTP Cats of the Day",
       "description": "Angular",
       "imgurl": "images/portfolio/http-cats-of-the-day.png",
-      "link": "https://ronkiro.github.io/http-cats-of-the-day/"
+      "link": "https://ronkiro.github.io/http-cats-of-the-day/",
+      "tags": "angular,ghpages,mini"
     },
     {
       "name": "Sensores - Radix",
       "description": "React + .NET",
       "imgurl": "images/portfolio/sensores.png",
-      "link": "https://github.com/Ronkiro/Sensores-Desafio-Radix-"
+      "link": "https://github.com/Ronkiro/Sensores-Desafio-Radix-",
+      "tags": "react,dotnet,ghpages,victoryjs"
     },
     {
       "name": "MSF - Automat WEB",
       "description": "Python/Django + React",
       "imgurl": "images/portfolio/unavailable.png",
-      "link": "https://codepen.io/ronkiro"
+      "link": "https://codepen.io/ronkiro",
+      "tags": "python,django"
     },
     {
       "name": "Star Wars API - B2W",
       "description": "Python/Flask API",
       "imgurl": "images/portfolio/swapi.jpg",
-      "link": "https://github.com/Ronkiro/B2W-SWAPI"
+      "link": "https://github.com/Ronkiro/B2W-SWAPI",
+      "tags": "python,flask"
     },
     {
       "name": "Contatos API - META",
       "description": ".NET",
       "imgurl": "images/portfolio/contatos.png",
-      "link": "https://github.com/Ronkiro/META_API_Challenge"
+      "link": "https://github.com/Ronkiro/META_API_Challenge",
+      "tags": "dotnet"
     },
     {
       "name": "Weather App",
       "description": "jQuery",
       "imgurl": "images/portfolio/weather.png",
-      "link": "https://github.com/Ronkiro/WeatherApp"
+      "link": "https://github.com/Ronkiro/WeatherApp",
+      "tags": "jquery,javascript"
     },
     {
       "name": "Camera",
       "description": "Arte CSS-only",
       "imgurl": "images/portfolio/camera.png",
-      "link": "https://codepen.io/ronkiro"
+      "link": "https://codepen.io/ronkiro",
+      "tags": "css"
     },
     {
       "name": "Random Quote Generator",
       "description": "jQuery",
       "imgurl": "images/portfolio/quotegen.png",
-      "link": "https://codepen.io/ronkiro"
+      "link": "https://codepen.io/ronkiro",
+      "tags": "jquery,javascript, bootstrap"
     },
     {
       "name": "Jokes",
       "description": "React",
       "imgurl": "images/portfolio/jokes.png",
-      "link": "https://codepen.io/ronkiro"
+      "link": "https://codepen.io/ronkiro",
+      "tags": "react"
     },
     {
       "name": "Tribute to Nikola Tesla",
       "description": "jQuery",
       "imgurl": "images/portfolio/tesla.png",
-      "link": "https://codepen.io/ronkiro"
+      "link": "https://codepen.io/ronkiro",
+      "tags": "jquery,javascript,bootstrap"
     },
     {
       "name": "MSF - Automat++",
       "description": "Python",
       "imgurl": "images/portfolio/unavailable.png",
-      "link": "https://codepen.io/ronkiro"
+      "link": "https://codepen.io/ronkiro",
+      "tags": "pyinstaller,python,pyqt4,pyqt5"
     },
     {
       "name": "MSF - Processador de Retornos Manuais",
       "description": "Python",
       "imgurl": "images/portfolio/unavailable.png",
-      "link": "https://codepen.io/ronkiro"
+      "link": "https://codepen.io/ronkiro",
+      "tags": "pyinstaller,python,pyqt4,pyqt5"
     },
     {
       "name": "MSF - Processador de Retornos Automáticos",
       "description": "Python",
       "imgurl": "images/portfolio/unavailable.png",
-      "link": "https://codepen.io/ronkiro"
+      "link": "https://codepen.io/ronkiro",
+      "tags": "python"
     },
     {
       "name": "MSF - Gerador de envios automáticos",
       "description": "Python",
       "imgurl": "images/portfolio/unavailable.png",
-      "link": "https://codepen.io/ronkiro"
+      "link": "https://codepen.io/ronkiro",
+      "tags": "python"
     },
     {
       "name": "Sun'n'cloud",
       "description": "Arte CSS-only",
       "imgurl": "images/portfolio/sunncloud.png",
-      "link": "https://codepen.io/ronkiro"
+      "link": "https://codepen.io/ronkiro",
+      "tags": "css"
     }
   ]
 }
